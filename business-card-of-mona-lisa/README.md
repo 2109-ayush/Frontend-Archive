@@ -10,6 +10,6 @@ It features a **flexbox layout, shadow effects, and hover animations** for a sle
 - **Technologies Used**: HTML, CSS  
 - **Features**: Responsive design, smooth hover effects, and a creative concept  
 
-Check out the live version **[here](https://business-card-of-mona-lisa-fa8zir8d2-ayushs-projects-a6a3402d.vercel.app)** (replace with your actual link). 🚀
+Check out the live version **[here](https://mona-lisa-business-card.vercel.app)** (replace with your actual link). 🚀
 
 Happy Coding!
