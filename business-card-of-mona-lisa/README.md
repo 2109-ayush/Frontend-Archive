@@ -1,19 +1,15 @@
 # Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This is a simple digital business card for **Mona Lisa**, built using **HTML & CSS**.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## About the Project
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+This fun project reimagines **Mona Lisa** as a modern professional with her own **business card**! 🃏  
+It features a **flexbox layout, shadow effects, and hover animations** for a sleek design.
+
+- **Technologies Used**: HTML, CSS  
+- **Features**: Responsive design, smooth hover effects, and a creative concept  
+
+Check out the live version **[here](https://business-card-of-mona-lisa-fa8zir8d2-ayushs-projects-a6a3402d.vercel.app)** (replace with your actual link). 🚀
 
 Happy Coding!
