@@ -6,7 +6,7 @@ Each folder represents a project or challenge from the course. I’m uploading t
 
 ## 📁 Project Structure
 
-Check the folders for source code and, where applicable and deployed links.
+Check the folders for source code where applicable and deployed links.
 
 ## 📌 Progress
 
