@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    color: #fff;
+    font-family: Lexend Exa;
+    text-align: center;
+}
+
+.hero {
+    text-shadow: 0 0 5px #000000;
+    background-image: url('./images/red-fort.png');
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-heading-hero {
+    /* background-color: #000;
+    padding: 10px 20px;
+    border-radius: 10px; */
+    margin-bottom: 0;
+}
+
+#sub-heading-hero {
+    /* background-color: #000;
+    padding: 10px 20px;
+    border-radius: 10px; */
+    margin-top: 8px;
+}
+
+/* ACTIVITY SECTION */
+
+.activities {
+    background-color: #000000;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#main-heading-activities {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.activity-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.activity {
+    max-width: 300px;
+    color: white;
+}
+
+.activity-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+/* GUIDE SECTION */
+
+.guide {
+    background-image: url('./images/lt.png'); 
+    background-position: center;
+    padding: 40px 20px;
+    display: flex;            
+    justify-content: center;  
+    color: #fff;
+  }
+  
+.business-card {
+    display: flex;
+    align-items: center;
+    background-color: #6f2dbd;
+    border-bottom: 6px solid #a663cc;
+    border-radius: 8px;               
+    padding: 35px 25px;               
+    max-width: 500px;                 
+    min-height: 250px;
+    
+}
+  
+.guide-image {
+    width: 200px;              
+    height: 300px;
+    border-radius: 6px;        
+    object-fit: cover;         
+    margin-right: 20px;        
+}
+  
+.guide-text {
+    max-width: 400px;          
+}
+  
+.guide-text p {
+    font-style: italic;
+    font-size: 0.9rem;         
+    margin-top: 20px;
+}
+  
+.guide-text h3 {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+  
