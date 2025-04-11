@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ClickFund</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <!-- Wrapped entire content inside a main wrapper for easier layout control -->
+        <div class="wrapper">
+            <!-- Semantic <header> for the main title -->
+            <header>
+                <h1 class="project-title">ClickFund</h1>
+            </header>
+
+            <!-- Semantic <main> tag to wrap core content -->
+            <main class="container">
+                <h2>Every Click Makes a Difference!</h2>
+                <h3 id="count-el">$0</h3>
+
+                <!-- Grouped buttons in a <div> -->
+                <div class="buttons">
+                    <button onclick="increment()">Add $1</button>
+                    <button onclick="save()">Save</button>
+                    <button onclick="reset()">Reset</button>
+                </div>
+
+                <p id="save-el">Past Contributions:</p>
+            </main>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

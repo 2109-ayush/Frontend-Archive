@@ -1,0 +1,86 @@
+/* ✅ Imported a modern Google Font for a fresh look */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+/* ✅ Reset all elements' margin/padding and use border-box for better layout control */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;  /* Replaced background image with a soft background color */
+    font-family: 'Space Grotesk', sans-serif; /* Replaced system font stack with imported custom font */
+    height: 100vh; /* Full viewport height for flex centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ✅ New wrapper class for vertical layout alignment */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ✅ New class for styling the project title */
+.project-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+/* ✅ Card-style container for main content */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px; /* Rounded corners for modern card effect */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    text-align: center;
+    min-width: 300px;
+}
+
+h2 {
+    font-size: 1.2rem; /* Smaller, cleaner subtitle font */
+    margin-bottom: 10px;
+}
+
+/* ✅ Updated count display with larger size and colored text */
+#count-el {
+    font-size: 2.5rem;
+    color: #02c39a; /* Eye-catching teal color */
+    margin-bottom: 20px;
+}
+
+/* ✅ Organized buttons using flex column layout with spacing */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* ✅ Unified button style with consistent hover effect */
+button {
+    background-color: #111; /* Single consistent button background */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+/* ✅ Added hover state for better UX */
+button:hover {
+    background-color: #333;
+}
+
+/* ✅ Styled the save message at the bottom */
+#save-el {
+    font-size: 0.9rem;
+    color: #555;
+}
