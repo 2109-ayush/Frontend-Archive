@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lexend Exa', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* 🆕 increased max-width for wider scoreboard */
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #333;
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    gap: 20px; /* 🆕 added gap between club sections */
+}
+
+.club-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.club {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 🆕 to center internal elements */
+}
+
+.club-logo {
+    width: 60px;
+    margin-bottom: 8px;
+}
+
+.club-name {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rma-points,
+.fcb-points {
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 80px;
+    border-radius: 8px;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 12px auto;
+}
+
+.btn-group {
+    display: flex; /* 🆕 wrapper for point buttons */
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+    width: 100%;
+    max-width: 220px; /* 🆕 to match the width of all 3 buttons combined */
+}
+
+.btn {
+    flex: 1; /* 🆕 evenly space all 3 buttons */
+    padding: 6px 0;
+    border-radius: 6px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.foul-btn {
+    margin-top: 10px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%; /* 🆕 make foul button full width */
+    max-width: 220px; /* 🆕 same width as 3 buttons */
+}
+
+.foul-btn:hover {
+    background-color: #c0392b;
+}
+
+.fouls {
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px auto 15px auto;
+}
+
+.divider {
+    width: 1px;
+    background-color: #000;
+    margin: 0 10px;
+}
+
+.new-game-btn {
+    padding: 14px 70px;
+    font-size: 16px;
+    font-family: 'Lexend Exa', sans-serif;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.new-game-btn:hover {
+    background-color: #333;
+}

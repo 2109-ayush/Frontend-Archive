@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Clásico Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- Match title -->
+        <h1 class="match-title">El Clásico</h1>
+        
+        <div class="container">
+            <div class="club-wrapper">
+                <!-- Real Madrid CFA -->
+                <div class="club">
+                    <img class="club-logo" src="./images/real-madrid.png" alt="real-madrid">
+                    <h3 class="club-name">RMA</h3>
+                    <div id="rma-count-el" class="rma-points">0</div>
+                    <div id="rma-fouls" class="fouls">FOULS: 0</div>
+                    <div class="btn-group">
+                        <button class="btn" onclick="increment_by_one_rma()">+1</button>
+                        <button class="btn" onclick="increment_by_two_rma()">+2</button>
+                        <button class="btn" onclick="increment_by_three_rma()">+3</button>
+                    </div>
+                    <button class="btn foul-btn" onclick="increment_foul_rma()">FOUL</button>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- FC Barcelona -->
+                <div class="club">
+                    <img class="club-logo" src="./images/barcelona.png" alt="fc-barcelona">
+                    <h3 class="club-name">FCB</h3>
+                    <div id="fcb-count-el" class="fcb-points">0</div>
+                    <div id="fcb-fouls" class="fouls">FOULS: 0</div>
+                    <div class="btn-group">
+                        <button class="btn" onclick="increment_by_one_fcb()">+1</button>
+                        <button class="btn" onclick="increment_by_two_fcb()">+2</button>
+                        <button class="btn" onclick="increment_by_three_fcb()">+3</button>
+                    </div>
+                    <button class="foul-btn" onclick="increment_foul_fcb()">FOUL</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Button to start a new game -->
+        <button class="new-game-btn" onclick="new_game_reset()">NEW GAME</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
