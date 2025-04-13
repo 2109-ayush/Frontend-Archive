@@ -112,6 +112,7 @@ body {
     transition: background-color 0.2s ease;
     width: 100%; /* 🆕 make foul button full width */
     max-width: 220px; /* 🆕 same width as 3 buttons */
+    font-family: Lexend Exa;
 }
 
 .foul-btn:hover {
