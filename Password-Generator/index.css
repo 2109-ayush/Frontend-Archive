@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+}
+  
+.container {
+    max-width: 700px;
+    width: 100%;
+}
+  
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 6rem;
+    line-height: 1.1;
+    color: #121212;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#pass {
+    color: #7ae582;
+}
+  
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Redesigned length-selector without enclosing box */
+.length-selector {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.length-selector label {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.length-selector select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #7ae582; /* Subtle mint border */
+    background-color: #fafafa;
+    appearance: none; /* Remove default dropdown arrow */
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.length-selector select:focus {
+    border-color: #7ae582; /* Mint green border on focus */
+    background-color: #fff;
+}
+
+.length-selector select::-webkit-appearance:focus {
+    border-color: #7ae582; /* Ensure custom border color on focus in Webkit browsers */
+}
+
+#password-gen-btn {
+    background-color: #7ae582;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    width: 100%; /* Makes the button full width */
+    min-height: 50px;
+}
+
+#password-gen-btn:hover {
+    background-color: #7ae582;
+}
+
+.divider {
+    height: 1.5px;
+    background-color: #7ae582; /* mint color */
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 2px;
+}
+  
+.passwords {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+  
+.password-box {
+    padding: 12px;
+    background-color: #000;
+    color: #7ae582;
+    border-radius: 6px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-height: 65px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: all 0.2s;
+}
+
+.password-box:hover {
+    background-color: #1a1a1a;
+    outline: 2px solid #7ae582;
+}
+
+/* Simple responsive layout */
+@media (max-width: 700px) {
+    .passwords {
+        flex-direction: column;
+    }
+}
