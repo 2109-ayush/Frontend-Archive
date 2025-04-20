@@ -6,11 +6,11 @@ A collection of frontend projects created to reinforce my understanding of user 
 
 | No. | Project                         | Description                                                        | Live Demo                    |
 |-----|---------------------------------|--------------------------------------------------------------------|------------------------------|
-| 01  | Digital Business Card           | A digital business card design.                                    | [Live Demo](https://mona-lisa-business-card.vercel.app)     |
-| 02  | Space Exploration Site          | A site about space exploration.                                    | [Live Demo](https://space-exploration-tau.vercel.app)     |
-| 03  | Birthday GIFt Site              | A personalized birthday gift site wrapped in emojis.               | [Live Demo](https://birthday-gif-t.vercel.app)     |
-| 04  | Home Town Home Page             | A homepage showcasing your hometown.                               | [Live Demo](https://hometown-home-page.vercel.app)     |
-| 05  | Click Fund                      | A simple app where users click to add a dollar.                    | [Live Demo](https://click-fund-app.vercel.app)     |
-| 06  | Score Board                     | A live scoreboard to track goals and fouls.                        | [Live Demo](https://el-clasico-scoreboard.vercel.app)     |
-| 07  | Blackjack Game                  | A digital version of Blackjack.                                    | [Live Demo](https://black-jack-liart.vercel.app)     |
-| 08  | MyPass                          | A random password generator with customizable length.             | [Live Demo](https://my-pass-liard.vercel.app)     |
+| 01  | [Digital Business Card](./business-card-of-mona-lisa)           | A digital business card design.                                    | [Live Demo](https://mona-lisa-business-card.vercel.app)     |
+| 02  | [Space Exploration Site](./space-exploration-site)         | A site about space exploration.                                    | [Live Demo](https://space-exploration-tau.vercel.app)     |
+| 03  | [Birthday GIFt Site](./birthday-gift-site)                 | A personalized birthday gift site wrapped in emojis.               | [Live Demo](https://birthday-gif-t.vercel.app)     |
+| 04  | [Home Town Home Page](./home-town-home-page)              | A homepage showcasing your hometown.                               | [Live Demo](https://hometown-home-page.vercel.app)     |
+| 05  | [Click Fund](./click-fund)                                 | A simple app where users click to add a dollar.                    | [Live Demo](https://click-fund-app.vercel.app)     |
+| 06  | [Score Board](./score-board)                               | A live scoreboard to track goals and fouls.                        | [Live Demo](https://el-clasico-scoreboard.vercel.app)     |
+| 07  | [Blackjack Game](./blackjack-game)                         | A digital version of Blackjack.                                    | [Live Demo](https://black-jack-liart.vercel.app)     |
+| 08  | [MyPass](./mypass)                                         | A random password generator with customizable length.              | [Live Demo](https://my-pass-liard.vercel.app)     |
