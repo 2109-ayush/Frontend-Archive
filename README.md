@@ -1,4 +1,4 @@
-<img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; max-height: 200px; object-fit: cover; margin-bottom: 20px;" />
+<img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; max-height: 100px; object-fit: cover; margin-bottom: 20px;" />
 
 # Frontend Projects - In Progress...
 
