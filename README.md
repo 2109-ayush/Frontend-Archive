@@ -6,7 +6,7 @@
 
 A collection of frontend projects created to reinforce my understanding of user interface design, web architecture, and interactive behavior. As I progressed, I added my own touches to each project and explored more advanced ideas with every new challenge.
 
-### Live Links
+## Live Links
 
 <br>
 
