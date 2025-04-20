@@ -6,7 +6,7 @@ A collection of frontend projects created to reinforce my understanding of user 
 
 ## Live Links
 
-<br><br>
+<br>
 
 | No. | Project                         | Description                                                        | Live Demo                    |
 |-----|---------------------------------|--------------------------------------------------------------------|------------------------------|
