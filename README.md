@@ -1,4 +1,4 @@
-<img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; margin-bottom: 20px;" />
+<img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; margin-bottom: 25px;" />
 
 # Archived Projects
 
