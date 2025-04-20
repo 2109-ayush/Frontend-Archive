@@ -14,5 +14,3 @@ This repository contains a list of frontend projects I'm building while enrolled
 | 06  | Score Board                     | A live scoreboard to track goals and fouls.                        | [Live Demo](https://el-clasico-scoreboard.vercel.app)     |
 | 07  | Blackjack Game                  | A digital version of Blackjack.                                    | [Live Demo](https://black-jack-liart.vercel.app)     |
 | 08  | MyPass                          | A random password generator with customizable length.             | [Live Demo](https://my-pass-liard.vercel.app)     |
-
-> More projects will be added as I progress further through the course.
