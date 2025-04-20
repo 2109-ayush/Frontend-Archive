@@ -1,10 +1,8 @@
 <img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; margin-bottom: 25px;" />
 
-<center><h2>Archived Projects</h2></center>
+## Archived Projects
 
-<p>
-  A collection of frontend projects created to reinforce my understanding of user interface design, web architecture, and interactive behavior. As I progressed, I added my own touches to each      project and explored more advanced ideas with every new challenge.
-</p>
+A collection of frontend projects created to reinforce my understanding of user interface design, web architecture, and interactive behavior. As I progressed, I added my own touches to each      project and explored more advanced ideas with every new challenge.
 
 ## Live Links
 
