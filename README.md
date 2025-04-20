@@ -6,6 +6,8 @@ A collection of frontend projects created to reinforce my understanding of user 
 
 ## Live Links
 
+<br><br>
+
 | No. | Project                         | Description                                                        | Live Demo                    |
 |-----|---------------------------------|--------------------------------------------------------------------|------------------------------|
 | 01  | [Digital Business Card](./business-card-of-mona-lisa)           | A digital business card design.                                    | [Live Demo](https://mona-lisa-business-card.vercel.app)     |
