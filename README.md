@@ -8,6 +8,8 @@ A collection of frontend projects created to reinforce my understanding of user 
 
 <br>
 
+<div align="center">
+
 | No. | Project                         | Description                                                        | Live Demo                    |
 |-----|---------------------------------|--------------------------------------------------------------------|------------------------------|
 | 01  | [Digital Business Card](./business-card-of-mona-lisa)           | A digital business card design.                                    | [Live Demo](https://mona-lisa-business-card.vercel.app)     |
@@ -18,3 +20,5 @@ A collection of frontend projects created to reinforce my understanding of user 
 | 06  | [Score Board](./football-score-card)                               | A live scoreboard to track goals and fouls.                        | [Live Demo](https://el-clasico-scoreboard.vercel.app)     |
 | 07  | [Blackjack Game](./Blackjack)                         | A digital version of Blackjack.                                    | [Live Demo](https://black-jack-liart.vercel.app)     |
 | 08  | [MyPass](./Password-Generator)                                         | A random password generator with customizable length.              | [Live Demo](https://my-pass-liard.vercel.app)     |
+
+</div>
