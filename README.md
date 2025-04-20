@@ -1,7 +1,7 @@
 <img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; margin-bottom: 25px;" />
 
-<div style="text-align:center;">
-  <h2>Archived Projects</h2>
+<div style="width: 100%; text-align: center;">
+  <h2 style="display: inline-block; text-align: center; margin: 0;">Archived Projects</h2>
 </div>
 
 <p>
