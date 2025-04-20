@@ -1,5 +1,3 @@
-<img src="./root-assets/display.jpeg" alt="Frontend Archive" style="width: 100%; max-height: 100px; object-fit: cover; margin-bottom: 20px;" />
-
 # Frontend Projects - In Progress...
 
 A collection of frontend projects created to reinforce my understanding of user interface design, web architecture, and interactive behavior. As I progressed, I added my own touches to each project and explored more advanced ideas with every new challenge.
