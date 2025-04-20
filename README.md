@@ -1,6 +1,6 @@
 # Frontend Developer Projects (Scrimba Career Path)
 
-This repository contains a list of frontend projects I'm building while enrolled in the [Scrimba Frontend Developer Career Path](https://scrimba.com/learn/frontend). I'm currently 30% through the course and learning core concepts in HTML, CSS, JavaScript, and React.
+A collection of frontend projects created to reinforce my understanding of user interface design, web architecture, and interactive behavior. As I progressed, I added my own touches to each project and explored more advanced ideas with every new challenge.
 
 ## Projects
 
