@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lexend Exa, sans-serif;
+  margin: 0;
+  padding: 16px;
+  min-width: 400px;
+  width: 400px;
+  max-width: 400px;
+  background-color: #ffffff;
+  /* color: #000000; */
+  color: #000000;
+  overflow-x: hidden;
+}
+
+.container {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: Lexend Exa, sans-serif;
+  font-size: 13px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s ease;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+input::placeholder {
+  color: #b0b0b0;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 0;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#input-btn, #tab-btn {
+  border: 1px solid #000000;
+}
+
+#delete-btn {
+  border: 1px solid #000000;
+  opacity: 0.7;
+}
+
+#delete-btn:hover {
+  opacity: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+  max-height: 280px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+ul::-webkit-scrollbar {
+  width: 3px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  width: 100%;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: #5c7aff;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+a:hover {
+  font-weight: 400;
+  padding-left: 4px;
+}
